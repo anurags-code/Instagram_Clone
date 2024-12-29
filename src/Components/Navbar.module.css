@@ -1,0 +1,228 @@
+/* Navbar.module.css
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5e7e7;
+    color: rgb(3, 3, 3);
+    
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+   
+  }
+  
+  .searchForm {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .searchInput {
+    border: none;
+    padding: 5px 12px;
+    font-size: 16px;
+    border-radius: 100px;
+    outline: none;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    
+  }
+  
+  .searchButton {
+    background-color: #0c519a;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .searchButton i {
+    font-size: 18px;
+  }
+  
+  .searchButton:hover {
+    background-color: #1166c1;
+  }
+  
+  .navMenu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .navLink {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 26px;
+    cursor: pointer;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 3px 0;
+  }
+  
+  /* Media Query for Responsive Design */
+  /* @media (max-width: 768px) {
+    .navMenu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #333;
+    }
+  
+    .navMenu.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  } */
+
+  /* Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  /* position: fixed; */
+  width: 100%;
+  z-index: 1000;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+}
+
+.profileIcon {
+  font-size: 32px;
+  color: #000;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 300px;
+  position: relative;
+}
+
+.searchInput {
+  border: none;
+  padding: 7px 15px;
+  font-size: 14px;
+  border-radius: 8px;
+  outline: none;
+  background-color: #efefef;
+  flex: 1;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  font-size: 18px;
+  color: #8e8e8e;
+}
+
+.navMenu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navLink {
+  color: #000;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  opacity: 0.7;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .searchForm {
+    max-width: 200px;
+  }
+
+  .navMenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    border-top: 1px solid #dbdbdb;
+  }
+
+  .navMenu.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .username {
+    display: none;
+  }
+}
+
+
+  
+   

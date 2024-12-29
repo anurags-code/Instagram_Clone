@@ -1,0 +1,42 @@
+.card-list{
+  max-width: 600px;
+  margin: 20px auto;
+  height: 400px;
+  
+    
+}
+
+.card-body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.btn{
+  margin-right: 5px;
+
+}
+
+.btn:hover{
+  cursor: pointer;
+
+  box-shadow: 5px 5px   inset;
+  box-shadow: 5px -5px   inset;
+}
+
+body{
+  background-color: rgb(115, 148, 148);
+}
+
+.card{
+  margin: 40px;
+}
+
+.comment-box-open{
+  display: block;
+}
+.comment-box-hide{
+  display: none;
+}
+
